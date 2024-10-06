@@ -1,6 +1,6 @@
 ## install
 ```bash
-npm i textcoder
+npm i textcodec
 ```
 
 ## api
