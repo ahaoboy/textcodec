@@ -1,5 +1,5 @@
 function charToUtf8(char: string): number[] {
-  let codePoint = char.codePointAt(0)!;
+  const codePoint = char.codePointAt(0)!;
   if (codePoint < 128) {
     return [codePoint];
   }

@@ -1,6 +1,5 @@
 export function throwError(): never {
-  const E = typeof URIError !== "function" ? Error : URIError
-  throw new E("Invalid UTF-8 sequence")
+  throw new Error("Invalid UTF-8 sequence")
 }
 
 export function utf8Decode(bytes: number[]): string {
